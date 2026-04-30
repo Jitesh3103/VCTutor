@@ -1,0 +1,157 @@
+
+> backend@1.0.0 server
+> nodemon server.js
+
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+◇ injected env (9) from .env // tip: ⌘ override existing { override: true }
+Server is running on PORT: 5000
+Database Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+◇ injected env (9) from .env // tip: ⌘ enable debugging { debug: true }
+Server is running on PORT: 5000
+Database Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+◇ injected env (9) from .env // tip: ⌘ suppress logs { quiet: true }
+Server is running on PORT: 5000
+Database Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+◇ injected env (9) from .env // tip: ⌘ override existing { override: true }
+Server is running on PORT: 5000
+Database Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+◇ injected env (9) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Server is running on PORT: 5000
+Database Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+◇ injected env (9) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Server is running on PORT: 5000
+Database Connected
+ValidationError: user validation failed: date: Path `date` is required.
+    at model.validate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\document.js:2864:36)
+    at async model.$__save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async registerUser (file:///C:/Users/SHIVANI%20P%20S/OneDrive/%E5%9B%BE%E7%89%87/intership/Project/VCTutor/VCTutor/backend/controllers/userController.js:50:22) {
+  errors: {
+    date: ValidatorError: Path `date` is required.
+        at SchemaNumber.doValidate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\schemaType.js:1465:13)
+        at model.validate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\document.js:2842:20)
+        at async model.$__save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:393:7)
+        at async model.save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:667:5)
+        at async registerUser (file:///C:/Users/SHIVANI%20P%20S/OneDrive/%E5%9B%BE%E7%89%87/intership/Project/VCTutor/VCTutor/backend/controllers/userController.js:50:22) {
+      properties: [Object],
+      kind: 'required',
+      path: 'date',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'user validation failed'
+}
+ValidationError: user validation failed: date: Path `date` is required.
+    at model.validate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\document.js:2864:36)
+    at async model.$__save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async registerUser (file:///C:/Users/SHIVANI%20P%20S/OneDrive/%E5%9B%BE%E7%89%87/intership/Project/VCTutor/VCTutor/backend/controllers/userController.js:50:22) {
+  errors: {
+    date: ValidatorError: Path `date` is required.
+        at SchemaNumber.doValidate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\schemaType.js:1465:13)
+        at model.validate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\document.js:2842:20)
+        at async model.$__save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:393:7)
+        at async model.save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:667:5)
+        at async registerUser (file:///C:/Users/SHIVANI%20P%20S/OneDrive/%E5%9B%BE%E7%89%87/intership/Project/VCTutor/VCTutor/backend/controllers/userController.js:50:22) {
+      properties: [Object],
+      kind: 'required',
+      path: 'date',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'user validation failed'
+}
+ValidationError: user validation failed: date: Path `date` is required.
+    at model.validate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\document.js:2864:36)
+    at async model.$__save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async registerUser (file:///C:/Users/SHIVANI%20P%20S/OneDrive/%E5%9B%BE%E7%89%87/intership/Project/VCTutor/VCTutor/backend/controllers/userController.js:50:22) {
+  errors: {
+    date: ValidatorError: Path `date` is required.
+        at SchemaNumber.doValidate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\schemaType.js:1465:13)
+        at model.validate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\document.js:2842:20)
+        at async model.$__save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:393:7)
+        at async model.save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:667:5)
+        at async registerUser (file:///C:/Users/SHIVANI%20P%20S/OneDrive/%E5%9B%BE%E7%89%87/intership/Project/VCTutor/VCTutor/backend/controllers/userController.js:50:22) {
+      properties: [Object],
+      kind: 'required',
+      path: 'date',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'user validation failed'
+}
+ValidationError: user validation failed: date: Path `date` is required.
+    at model.validate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\document.js:2864:36)
+    at async model.$__save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async registerUser (file:///C:/Users/SHIVANI%20P%20S/OneDrive/%E5%9B%BE%E7%89%87/intership/Project/VCTutor/VCTutor/backend/controllers/userController.js:50:22) {
+  errors: {
+    date: ValidatorError: Path `date` is required.
+        at SchemaNumber.doValidate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\schemaType.js:1465:13)
+        at model.validate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\document.js:2842:20)
+        at async model.$__save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:393:7)
+        at async model.save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:667:5)
+        at async registerUser (file:///C:/Users/SHIVANI%20P%20S/OneDrive/%E5%9B%BE%E7%89%87/intership/Project/VCTutor/VCTutor/backend/controllers/userController.js:50:22) {
+      properties: [Object],
+      kind: 'required',
+      path: 'date',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'user validation failed'
+}
+ValidationError: user validation failed: date: Path `date` is required.
+    at model.validate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\document.js:2864:36)
+    at async model.$__save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async registerUser (file:///C:/Users/SHIVANI%20P%20S/OneDrive/%E5%9B%BE%E7%89%87/intership/Project/VCTutor/VCTutor/backend/controllers/userController.js:50:22) {
+  errors: {
+    date: ValidatorError: Path `date` is required.
+        at SchemaNumber.doValidate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\schemaType.js:1465:13)
+        at model.validate (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\document.js:2842:20)
+        at async model.$__save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:393:7)
+        at async model.save (C:\Users\SHIVANI P S\OneDrive\图片\intership\Project\VCTutor\VCTutor\backend\node_modules\mongoose\lib\model.js:667:5)
+        at async registerUser (file:///C:/Users/SHIVANI%20P%20S/OneDrive/%E5%9B%BE%E7%89%87/intership/Project/VCTutor/VCTutor/backend/controllers/userController.js:50:22) {
+      properties: [Object],
+      kind: 'required',
+      path: 'date',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'user validation failed'
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+◇ injected env (9) from .env // tip: ⌘ enable debugging { debug: true }
+Server is running on PORT: 5000
+Database Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+◇ injected env (9) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Server is running on PORT: 5000
+Database Connected
